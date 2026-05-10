@@ -12,7 +12,7 @@ import type {
 } from "@/lib/types";
 
 let predictionsStore = [...seedPredictions];
-let packagesStore = [...seedPackages];
+const packagesStore = [...seedPackages];
 let purchasesStore = [...seedPurchases];
 
 function mapPredictionRow(row: Record<string, unknown>): Prediction {
